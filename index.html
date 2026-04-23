@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS</title>
+    <!-- linking the style sheet -->
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body class="bg-black">
+
+    <div class="m-4 bg-blue-400 p-4">
+        <!-- text background color -->
+        <h1 class="text-black bg-green-400 m-5">This is the tailwind H1</h1>
+
+        <!-- text margin -->
+        <h2 class="bg-yellow-600 m-5">this is brand new H2</h2>
+
+        <!-- text size and font bold and padding and text alignment-->
+        <h1 class="bg-white text-xl m-4 p-4 text-center font-bold text-blue-600">this is the size of H1</h1>
+
+        <!-- text spacing -->
+        <h1 class="bg-black text-yellow-400 m-4 p-4 text-xl font-bold tracking-wide uppercase">Full Stack WebDevelopment</h1>
+
+        <!-- line height and border and shadow and border -->
+        <p class="bg-white text-black m-4 p-4 font-bold leading-loose rounded-2xl shadow-2xl border-2 border-black">Lorem
+            ipsum dolor, sit amet consectetur adipisicing elit. Facere quaerat sapiente explicabo natus, quasi nobis
+            aspernatur excepturi ipsa vero qui. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique
+            repellat hic nemo dolorem dolorum sequi quisquam adipisci voluptas, facilis libero? Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Tempore reiciendis dignissimos dolore labore, error facilis. Vero
+            inventore aliquid eveniet ea!</p>
+        
+        <!-- Responsive Design For All Device with hidden otpion -->
+         <h1 class="bg-black text-white p-4 md:text-center md:bg-white md:text-black sm:hidden md:block">This Is the Responsive Design For All Device</h1>
+    </div>
+
+    <!-- 12 column grid system -->
+     <div class="grid grid-cols-12 gap-4">
+        <div class="lg:col-span-3 md:col-span-6 col-span-4 p-4 m-4 bg-blue-300">Column</div>
+        <div class="lg:col-span-3 md:col-span-6 col-span-4 p-4 m-4 bg-yellow-400">Column</div>
+        <div class="lg:col-span-3 md:col-span-6 col-span-4 p-4 m-4 bg-green-500">Column</div>
+        <div class="lg:col-span-3 md:col-span-6 col-span-4 p-4 m-4 bg-blue-600">Column</div>
+     </div>
+</body>
+
+</html>
